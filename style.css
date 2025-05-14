@@ -1,0 +1,132 @@
+/* Estilo geral */
+body {
+    background-color: #e3f2fd; /* Azul suave */
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    color: #333; /* Cor suave para o texto */
+}
+
+/* Título */
+h1 {
+    color: #1565c0; /* Azul escuro para destaque */
+    text-align: center;
+    font-family: 'Georgia', serif; /* Fonte diferente */
+}
+
+/* Subtítulo */
+h2 {
+    color: #0d47a1; /* Azul mais escuro */
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Parágrafo */
+p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif; /* Fonte diferenciada */
+}
+
+/* Lista */
+ul {
+    padding-left: 20px;
+    font-family: 'Courier New', monospace; /* Fonte monoespaçada */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Imagem */
+img {
+    border-radius: 15px; /* Bordas arredondadas */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+}
+
+/* Botão estilizado */
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1e88e5; /* Azul vibrante */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #0d47a1; /* Azul escuro */
+}
+
+/* Botão estilizado */
+button {
+    background-color: #1e88e5; /* Azul vibrante */
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Azul escuro */
+}
+
+/* Mensagem motivacional */
+#mensagem {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1565c0; /* Azul suave */
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    display: none;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    background-color: #e3f2fd; /* Azul suave */
+}
+
+/* Bordas e espaçamento das células */
+th, td {
+    border: 2px solid #1565c0; /* Azul escuro */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilização do título da tabela */
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Destacando os cabeçalhos */
+th {
+    background-color: #1e88e5;
+    color: white;
+}
+
+/* Imagens dentro da tabela */
+td img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
